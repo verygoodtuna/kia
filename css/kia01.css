@@ -1,0 +1,28 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;    
+}
+
+#header {
+    background: #c0c0c0;
+}
+
+#header .inner{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+#header .gnb {
+    justify-content: center;
+}
+
+#header .inner .gnb>ul{
+    display: flex;
+    gap: 30px;
+}
+
+#main .m_slide inner .car {
+    width: 100%;
+}
